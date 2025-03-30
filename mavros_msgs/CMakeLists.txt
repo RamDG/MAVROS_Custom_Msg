@@ -105,6 +105,7 @@ set(msg_files
   msg/WaypointList.msg
   msg/WaypointReached.msg
   msg/WheelOdomStamped.msg
+  msg/CustomMsg.msg
   # [[[end]]] (checksum: a8e24eb0a6da5cea6cc049fdc6b2612e)
 )
 

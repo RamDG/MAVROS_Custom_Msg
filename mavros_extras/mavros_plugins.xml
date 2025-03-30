@@ -212,6 +212,10 @@ send back to the FCU a corrected path (collision free, smoothed)
     <description>@brief VFR HUD plugin.
 @plugin vfr_hud</description>
   </class>
+  <class name="custom_msg" type="mavros::plugin::PluginFactoryTemplate&lt;mavros::extra_plugins::CustomMsgPlugin&gt;" base_class_type="mavros::plugin::PluginFactory">
+    <description>@brief CUSTOM MSG plugin.
+@plugin custom_msg</description>
+  </class>
   <class name="vibration" type="mavros::plugin::PluginFactoryTemplate&lt;mavros::extra_plugins::VibrationPlugin&gt;" base_class_type="mavros::plugin::PluginFactory">
     <description>@brief Vibration plugin
 @plugin vibration
